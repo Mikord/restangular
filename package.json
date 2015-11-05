@@ -1,14 +1,14 @@
 {
   "name": "restangular",
-  "description": "Restful Resources service for AngularJS apps",
+  "description": "Restful Resources service for AngularJS apps. CG fork.",
   "version": "1.5.1",
   "filename": "restangular.min.js",
   "main": "./dist/restangular.min.js",
-  "homepage": "https://github.com/mgonto/restangular",
+  "homepage": "https://github.com/mikord/restangular",
   "author": "Martin Gontovnikas <martin@gon.to>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mgonto/restangular.git"
+    "url": "git://github.com/mikord/restangular.git"
   },
   "engines": {
     "node": ">= 0.9"
@@ -26,6 +26,10 @@
     {
       "name": "Martin Gontovnikas",
       "website": "http://gon.to/"
+    },
+    {
+      "name": "CG",
+      "website": "http://cg.ru/"
     }
   ],
   "dependencies": {

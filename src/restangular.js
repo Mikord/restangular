@@ -1159,7 +1159,7 @@ restangular.provider('Restangular', function() {
           var resData = response.data;
           var fullParams = response.config.params;
           var elem = parseResponse(resData, operation, route, fetchUrl, response, deferred);
-          if (elem) {
+          if (elem != null) {
 
             if (operation === 'post' && !__this[config.restangularFields.restangularCollection]) {
               var data = restangularizeElem(
